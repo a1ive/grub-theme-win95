@@ -1,0 +1,21 @@
+# Global Property
+title-text: ""
+title-color: "#000000"
+message-color: "#333333"
+message-bg-color: "#f2f2f2"
+desktop-color: "#000000"
+desktop-image: "splash95/1.png"
+terminal-box: "term_bkg_*.png"
+
++ animation {
+  dir_name = "splash95"
+  image_format = "png"
+  frame_number = 20
+  size_ratio = 1
+  play_once = pause
+  
+  left = 0%
+  width = 100%
+  top = 0%
+  height = 100%
+}
